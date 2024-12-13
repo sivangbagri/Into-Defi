@@ -2,3 +2,4 @@
 - Variables inside the function are local variables, destroyed after function execution.
 - global variables :  msg.sender , block.number, block.timestamp
 - <img width="350" alt="image" src="https://github.com/user-attachments/assets/e7f14cf2-f54b-4cc0-9a5b-3e1628a1199e" />
+- using constant with state variables reduces gas fee.
