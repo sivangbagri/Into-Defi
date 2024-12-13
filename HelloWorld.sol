@@ -13,4 +13,8 @@ contract HelloWorld{
         return x1+x2;
     }
 
+    address sender = msg.sender;
+    uint timestamp = block.timestamp;
+    uint blockNum= block.number;
+    
 }

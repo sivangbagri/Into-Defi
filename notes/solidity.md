@@ -1,0 +1,4 @@
+- State variables are varibales stored on blockchain, declared inside a contract outside the function .
+- Variables inside the function are local variables, destroyed after function execution.
+- global variables :  msg.sender , block.number, block.timestamp
+- 
