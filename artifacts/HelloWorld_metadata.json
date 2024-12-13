@@ -7,12 +7,88 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x2",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b32",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myString",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -47,11 +123,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0x0a5870ca7cadfaaa850610b95e58e2b5dd99854ed031079e79ff826324fae657",
+			"keccak256": "0x1d9de3233b1d5af8f70f76020cdd7d3dcf7f3249ef1a9cb45479770d2e5b6911",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c8b78743d96b5d1ac1abc9153df33608944edf4939bfd6c9b9ca4d5c1950443",
-				"dweb:/ipfs/QmVeEW1piRXxJNz3YKPJnJjZATkHpC2UwQppbNKyF3KFzB"
+				"bzz-raw://1f5aa18a958b079d492d5f772ce8da74ae0b106b46d0828ed31661df5f2e770c",
+				"dweb:/ipfs/QmckPJH9n78GXC3HUkFeTTcF7rgn4ZueL9DXn7faG4LZrG"
 			]
 		}
 	},

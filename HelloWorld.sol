@@ -9,4 +9,8 @@ contract HelloWorld{
     address z;
     bytes32 public b32;
 
+    function add(uint x1, uint x2) external pure returns (uint) {
+        return x1+x2;
+    }
+
 }
