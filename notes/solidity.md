@@ -12,3 +12,4 @@
 - When passing or returning dynamic data types like arrays, strings, or structs, you can use memory to indicate they are temporary.
 - For arrays, strings, and structs, you must explicitly declare the data location (memory, storage, or calldata).
 - memory arrays cannot be initialized with a literal array directly.
+- removing ele from a array : (a) left shifting and pop last ele (more gas preserve order) (b)  ele to be removed = last and pop (less gas unpreserved order) 
