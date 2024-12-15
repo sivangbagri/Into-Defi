@@ -6,3 +6,4 @@
 - lower is the number of loops in function lower is the gas fee.
 - Whenever error (require, revert, assert)  id thrown gas is refunded , state variable changes are reverted
 - Using custom error is cheaper to use.
+- 
