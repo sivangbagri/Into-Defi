@@ -6,4 +6,9 @@
 - lower is the number of loops in function lower is the gas fee.
 - Whenever error (require, revert, assert)  id thrown gas is refunded , state variable changes are reverted
 - Using custom error is cheaper to use.
-- constructor : special func : called once when contract deployed : used to declare state variables 
+- constructor : special func : called once when contract deployed : used to declare state variables.
+- Data stored in memory exists only for the duration of a function call.
+- memory variables are not written to the blockchain.
+- When passing or returning dynamic data types like arrays, strings, or structs, you can use memory to indicate they are temporary.
+- For arrays, strings, and structs, you must explicitly declare the data location (memory, storage, or calldata).
+- memory arrays cannot be initialized with a literal array directly.
