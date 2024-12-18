@@ -17,3 +17,5 @@
 - when we use a dynamic datatype as a variable we need to declare its data location :storage , memory, calldata
 - use storage to update the data , memory for reading the data , for function input use calldata (Saves gas avoid copying)
 - calldata is immutable. If you need to modify the data, use memory instead.
+- Events are primarily used to communicate with the front end of a decentralized application (DApp) or to record important activities within a contract.
+- it allows off-chain tools (e.g., Web3.js, Ethers.js, or blockchain explorers like Etherscan) to search for specific events based on the values of those indexed fields.
