@@ -14,3 +14,6 @@
 - memory arrays cannot be initialized with a literal array directly.
 - removing ele from a array : (a) left shifting and pop last ele (more gas preserve order) (b)  ele to be removed = last and pop (less gas unpreserved order) 
 - we cannot get the size of mapping and also we cannot iterate over mapping.
+- when we use a dynamic datatype as a variable we need to declare its data location :storage , memory, calldata
+- use storage to update the data , memory for reading the data , for function input use calldata (Saves gas avoid copying)
+- calldata is immutable. If you need to modify the data, use memory instead.
