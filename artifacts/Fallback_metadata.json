@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "func",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fallbacks.sol": "Fallback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fallbacks.sol": {
+			"keccak256": "0x473544ceac94c6cd5e5134bfcd730bbb67ef71634eb10fdbf47d454b83c8cd7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8565001557ca64339f7feb8139783536396c154eb535868f74ccbeea0c2cbfbf",
+				"dweb:/ipfs/QmSQiScEvfjdcphNfJYkUQRJKtnwdYvhyTLyZDfxBGkXBd"
+			]
+		}
+	},
+	"version": 1
+}
