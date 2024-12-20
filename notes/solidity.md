@@ -19,3 +19,5 @@
 - calldata is immutable. If you need to modify the data, use memory instead.
 - Events are primarily used to communicate with the front end of a decentralized application (DApp) or to record important activities within a contract.
 - it allows off-chain tools (e.g., Web3.js, Ethers.js, or blockchain explorers like Etherscan) to search for specific events based on the values of those indexed fields.
+- virtual is used to specify that this fucntion can be inherited and modified by the child contract.
+- order of inheritance (in multiple inheritance) : most  base-like to derived 
