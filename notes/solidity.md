@@ -21,3 +21,5 @@
 - it allows off-chain tools (e.g., Web3.js, Ethers.js, or blockchain explorers like Etherscan) to search for specific events based on the values of those indexed fields.
 - virtual is used to specify that this fucntion can be inherited and modified by the child contract.
 - order of inheritance (in multiple inheritance) : most  base-like to derived 
+- if inherited and parent has constructor the child has to specifiy params.
+- calling parent function : by direct calling , or using **super** 
