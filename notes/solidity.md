@@ -24,3 +24,5 @@
 - if inherited and parent has constructor the child has to specifiy params.
 - calling parent function : by direct calling , or using **super**
 - <img width="350" alt="image" src="https://github.com/user-attachments/assets/409f5ba7-3fb5-4de4-b30b-4c96874d3743" />
+- <img width="350" alt="image" src="https://github.com/user-attachments/assets/91bdb367-6a41-42fe-ab97-6f06c214297e" />
+
