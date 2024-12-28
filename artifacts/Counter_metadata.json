@@ -6,39 +6,36 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract TestContract",
-						"name": "_test",
-						"type": "address"
-					},
+				"inputs": [],
+				"name": "count",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setX",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "contract TestContract",
-						"name": "_test",
-						"type": "address"
-					},
+				"inputs": [],
+				"name": "x",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setXandReceiveEther",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -55,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"callOtherContract.sol": "CallTestContract"
+			"Counter.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"callOtherContract.sol": {
-			"keccak256": "0xc1feba91f2390bdfad8064449360c2854b22287e279304b2bdc65601ddf7b7e3",
+		"Counter.sol": {
+			"keccak256": "0xc23b11da2c0a295b65264a9196b0b1d67a94a2b80e699cfd65066184cd753f4c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://90049ca1e2ca9887c23aae29f2485c9dac455857059c97644c9db716363b56d1",
-				"dweb:/ipfs/QmUWMyhqvnfbbSAPeDBwKjTAJEngSKbVuD364SgjcH8NKc"
+				"bzz-raw://5a61eda30101280e6db1331dbcdd8ffd33f9a191e3998c69ec3e9eceedca5eab",
+				"dweb:/ipfs/QmWPFoBrG5BVZ4KvxdpLyDmPMYo5eZuQ6j6Zdi4QMMxXCG"
 			]
 		}
 	},
