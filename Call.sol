@@ -26,7 +26,7 @@ contract Call {
     bytes public data;
 
     function callFoo(address _test) external payable {
-        (bool success, bytes memory _data) = _test.call{value: 89, gas: 8000}(
+        (bool success, bytes memory _data) = _test.call{value: 89}(
             abi.encodeWithSignature("foo(string,uint256)", "call foo", 123)
         ); // function sig , input params
 
@@ -36,7 +36,7 @@ contract Call {
 
     function callDoesNotExit(address _test) external {
         (bool success, ) = _test.call(
-            abi.encodeWithSignature("doesNotExist()")
+            abi.encodeWithSignature("doesNotExist()") // fallback will be executed
         );
         require(success, "Call failed");
     }
