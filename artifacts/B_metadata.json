@@ -7,15 +7,59 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"inherit.sol": "B"
+			"delegate.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"inherit.sol": {
-			"keccak256": "0x441c7d9e5ea7f0130c1373cb9802fd426d6e1bbfb3c75023b3e23b6df37b38a3",
+		"delegate.sol": {
+			"keccak256": "0xd5ec6bd8d67bbe9620c33670ab53af7686dcc4bc02a102103dfb0edfc080e698",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0263c1519dd97e3d7de73bc41c541e25aab3028b0d71e526d637eab2e7763d22",
-				"dweb:/ipfs/QmYFrNaczFv7bZxfvf5TDw6mNuptvkxwkNpdkwZFtv1Lez"
+				"bzz-raw://a66d9021eab64fd809cf8ce2e9389a51c6a498dd06c8accf5d6746345802a234",
+				"dweb:/ipfs/QmZMkatUQYVv76LL8js21ZP92cD7raRYDv5pbmumWWZ8tA"
 			]
 		}
 	},
