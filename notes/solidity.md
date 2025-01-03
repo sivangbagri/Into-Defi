@@ -29,4 +29,5 @@
 - <img width="350" alt="image" src="https://github.com/user-attachments/assets/e0636854-8a8e-4f43-8568-97f3b2e39189" />
 - Libraries cannot store state variables or accept Ether; If functions are internal, they are embedded directly into the contract that uses them, saving gas.
 - Library enhances datatype.
-- keccak256 Used in Ethereum for address generation, signatures, and data integrity checks. 
+- keccak256 Used in Ethereum for address generation, signatures, and data integrity checks.
+- <img width="350" alt="image" src="https://github.com/user-attachments/assets/b943a111-12c1-4d74-837d-5f5382f64064" />
