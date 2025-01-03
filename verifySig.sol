@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 // ------ yet to be understood ------------------------
+
 // 0. message to sign
 // 1. hash(message)
 // 2. sign(hash(message) ,private key) | offchain
@@ -92,7 +93,7 @@ contract VerifySignature {
         return recoverSigner(ethSignedMessageHash, signature) == _signer;
     }
 
-    function recoverSigner(
+    function recoverSigner( // who signed it ?? 
         bytes32 _ethSignedMessageHash,
         bytes memory _signature
     ) public pure returns (address) {
@@ -102,7 +103,7 @@ contract VerifySignature {
     }
 
     function splitSignature(bytes memory sig)
-        public
+        internal
         pure
         returns (
             bytes32 r,
