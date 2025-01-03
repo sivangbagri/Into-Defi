@@ -11,7 +11,7 @@ contract Acount{
     }
 }
 
-contract AccountFactory{
+contract AccountFactory{ // contract that deploy new contract
     Acount[] public accounts;
     function createAccount(address _owner) external payable{
         Acount account = new Acount{value:111}(_owner);
