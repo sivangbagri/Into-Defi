@@ -31,3 +31,6 @@
 - Library enhances datatype.
 - keccak256 Used in Ethereum for address generation, signatures, and data integrity checks.
 - <img width="350" alt="image" src="https://github.com/user-attachments/assets/b943a111-12c1-4d74-837d-5f5382f64064" />
+- The abi.encodePacked function compresses the input, whereas abi.encode adds type information and padding.
+- For constants or fixed strings, use keccak256("ADMIN") as it's simpler and cheaper in gas.
+- For dynamic values or concatenations, use keccak256(abi.encodePacked(...)) for flexibility.
