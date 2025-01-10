@@ -34,3 +34,4 @@
 - The abi.encodePacked function compresses the input, whereas abi.encode adds type information and padding.
 - For constants or fixed strings, use keccak256("ADMIN") as it's simpler and cheaper in gas.
 - For dynamic values or concatenations, use keccak256(abi.encodePacked(...)) for flexibility.
+- mappings in Solidity are always stored in storage by default
