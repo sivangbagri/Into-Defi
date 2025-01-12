@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nftId",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DutchAuction.sol": "IERC721"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DutchAuction.sol": {
+			"keccak256": "0xf485917d1b114bdd81e8452939d070c95b8d442bb3cb083b3f2af7af4c34ea88",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08675a1ba6c0c54cbd975848265459f3f8007837eed61c6df496cac7058d0139",
+				"dweb:/ipfs/Qmb4mQt89fEvt9MfnGM2rmGkUxwLuriG3SZ9Vvxp78hNkz"
+			]
+		}
+	},
+	"version": 1
+}

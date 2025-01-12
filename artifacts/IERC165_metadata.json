@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceID",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NFT.sol": "IERC165"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NFT.sol": {
+			"keccak256": "0x7921ae6c6bf98ce9453d3cba27f5ce35984c7cec902b252039a85f95747210e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://583e7ba8ed0baa83d614f01edcbd339e513c0aa188a433db9f1ad051c06de1e4",
+				"dweb:/ipfs/QmTafomB2B3bRMoZCNmyrrcFyw6YRbiADGiZk4FDMHihAc"
+			]
+		}
+	},
+	"version": 1
+}
