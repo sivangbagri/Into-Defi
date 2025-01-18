@@ -36,3 +36,4 @@
 - For dynamic values or concatenations, use keccak256(abi.encodePacked(...)) for flexibility.
 - mappings in Solidity are always stored in storage by default
 - create2 is used to deploy other contracts with a predictable address.(CREATE2 is an opcode)
+- 
