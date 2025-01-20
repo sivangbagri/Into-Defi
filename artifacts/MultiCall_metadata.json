@@ -6,65 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "func1",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address[]",
+						"name": "targets",
+						"type": "address[]"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "bytes[]",
+						"name": "data",
+						"type": "bytes[]"
+					}
+				],
+				"name": "multiCall",
+				"outputs": [
+					{
+						"internalType": "bytes[]",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes[]"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "func2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getData1",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getData2",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -81,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"multicall.sol": "Test"
+			"multicall.sol": "MultiCall"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
