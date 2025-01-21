@@ -8,25 +8,20 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address[]",
-						"name": "targets",
-						"type": "address[]"
-					},
-					{
 						"internalType": "bytes[]",
 						"name": "data",
 						"type": "bytes[]"
 					}
 				],
-				"name": "multiCall",
+				"name": "multiDelegateCall",
 				"outputs": [
 					{
 						"internalType": "bytes[]",
-						"name": "",
+						"name": "results",
 						"type": "bytes[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"multicall.sol": "MultiCall"
+			"multiDelegateCall.sol": "MultiDelegateCall"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"multicall.sol": {
-			"keccak256": "0x1ef880e9db6170c89a0339fbdb793bdfca06551e8393989e810ed7757483c975",
+		"multiDelegateCall.sol": {
+			"keccak256": "0xcca8b2444612d6b22df7ff230398b95c3949ec1cc7ce71a12d929ed0f03606de",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5150ddca3f94ba8cbdc22b97f4d3fdbb269682a4e7a89932fc6e933763c3218",
-				"dweb:/ipfs/QmSsjTYXbSAzmzY7V2QZn2UJRLFCYkBx35XkG9cWxVy9AS"
+				"bzz-raw://249eb3c9afc4abb738113825ea8c5e8b57d4728bcf350a2e509afe4e4bc64e55",
+				"dweb:/ipfs/QmbMnU5Ndsg9Nw35ULcLYknGK9riwQGqBQfQr7NG4u5Pkc"
 			]
 		}
 	},

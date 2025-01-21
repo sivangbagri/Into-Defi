@@ -2,8 +2,8 @@
 pragma solidity 0.8.26;
 
 contract Test{
-    function func1() external view returns(uint,uint) {
-        return (1, block.timestamp);
+    function func1() external view returns(address,uint) {
+        return (msg.sender, block.timestamp); // msg.sender will be MultiCall address
 
     }
     function func2() external view returns(uint,uint) {

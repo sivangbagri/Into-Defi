@@ -10,9 +10,9 @@
 				"name": "func1",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					},
 					{
 						"internalType": "uint256",
@@ -96,11 +96,11 @@
 	},
 	"sources": {
 		"multicall.sol": {
-			"keccak256": "0x11fb22dcd181fff704e1180ce29699e650bb150787e97c351fd0efb14b188be2",
+			"keccak256": "0x1ef880e9db6170c89a0339fbdb793bdfca06551e8393989e810ed7757483c975",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4657667548757d4d3d56f0229ea63ba07bdff1a66984508baeff50bca49cfac9",
-				"dweb:/ipfs/QmXq5cWMMAKUn6xUNrka54qpDF1sbnd7cb5Hr42k9q4sLu"
+				"bzz-raw://e5150ddca3f94ba8cbdc22b97f4d3fdbb269682a4e7a89932fc6e933763c3218",
+				"dweb:/ipfs/QmSsjTYXbSAzmzY7V2QZn2UJRLFCYkBx35XkG9cWxVy9AS"
 			]
 		}
 	},
