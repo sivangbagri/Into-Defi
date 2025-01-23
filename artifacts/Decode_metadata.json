@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "inputBytes",
+						"type": "bytes"
+					}
+				],
+				"name": "decode",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "x",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "ar",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct Decode.myStruct",
+						"name": "structs",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "x",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "ar",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct Decode.myStruct",
+						"name": "structs",
+						"type": "tuple"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"decode.sol": "Decode"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"decode.sol": {
+			"keccak256": "0x7721d07986211ad2448346dda5df1e8d044f15359ed4610520119d87b406ca32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e440de40105e744113a5421442a7fbb7861481ad702a957b3436ee540ef4762",
+				"dweb:/ipfs/QmTqoqyACi7h87qnT3agnBtF8JwBLTgbMfSQdTjuYXZMEs"
+			]
+		}
+	},
+	"version": 1
+}
