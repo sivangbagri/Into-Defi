@@ -38,3 +38,10 @@
 - create2 is used to deploy other contracts with a predictable address.(CREATE2 is an opcode)
 - staticcall is a low-level function used to call other contracts or functions without modifying the state of the blockchain (target contract's). It is used for read-only operations.
 - using multiCall function call is that they are processed one after another in the same transaction.
+- gas saving techniques 
+    - use calldata  
+    - load state variable into memory
+    - short circuit 
+    - loop increment : ++i ✅
+    - cache array length
+    - loop  array elements to memory 
