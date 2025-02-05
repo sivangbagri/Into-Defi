@@ -17,12 +17,12 @@ contract CSMM {
         token1 = IERC20(_token1);
     }
 
-    function _mint(address to, uint256 _amount) public {
+    function _mint(address to, uint256 _amount) private {
         totalSupply += _amount;
         balanceOf[to] += _amount;
     }
 
-    function _burn(address from, uint256 _amount) public {
+    function _burn(address from, uint256 _amount) private {
         totalSupply -= _amount;
         balanceOf[from] -= _amount;
     }
@@ -48,7 +48,7 @@ contract CSMM {
             amountIn = token0.balanceOf(address(this)) - reserve1;
         }
         // calculate amountOut (+ fees 0.3%)
-        amountOut= (amountIn*997)/100;
+        amountOut= (amountIn*997)/1000;
         if(_tokenIn == address(token0)) {
             _update(reserve0+_amountIn,reserve1-amountOut);
         } else {
