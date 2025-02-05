@@ -46,5 +46,6 @@
     - cache array length
     - loop  array elements to memory
 - <img width="350" alt="Screenshot 2025-01-30 144020" src="https://github.com/user-attachments/assets/a0a91c03-7476-4248-b126-d68fb05a1f66" />
-<img width="350" alt="Screenshot 2025-01-30 144207" src="https://github.com/user-attachments/assets/60e146b1-8295-47e8-95d5-c4a257b17b6b" />
-
+- <img width="350" alt="Screenshot 2025-01-30 144207" src="https://github.com/user-attachments/assets/60e146b1-8295-47e8-95d5-c4a257b17b6b" />
+- In DeFi, vaults are smart contracts that manage ERC-20 tokens for yield farming, lending, borrowing, or collateralization.
+- 
