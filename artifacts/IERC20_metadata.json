@@ -6,56 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "Approval",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "Transfer",
-				"type": "event"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -202,7 +152,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"erc20.sol": "IERC20"
+			"Staking.sol": "IERC20"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -216,12 +166,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"erc20.sol": {
-			"keccak256": "0x64ab690c16c4d1da3f3c7bddb31cae8966eed503c1d9f7144c8b5804b229cde5",
+		"Staking.sol": {
+			"keccak256": "0x8eb2e42641a61f2d0a5fc5ce1c4c393634ba3dc40ab67a1c82787cb8a20fe463",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://05ba8c191e1906c363ba821d5fe25926efb7c2bfd9823ca38c7ac16066d440b9",
-				"dweb:/ipfs/QmVSBRWSuG7eieRGQzzB4nutwJtVjpm8QQHChhAJbKzaDg"
+				"bzz-raw://014a95d2a5c7c903f64b7cb514fd24d9621c483cf753d9023cf45ff823e085ea",
+				"dweb:/ipfs/QmcirMivZxssXw4WrMwvU9konaS8yVvbW6xey1KqXJamjG"
 			]
 		}
 	},
