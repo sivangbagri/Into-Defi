@@ -328,11 +328,11 @@
 	},
 	"sources": {
 		"Staking.sol": {
-			"keccak256": "0x774253eb50c00de5b0a6fa0452073ccb74e1330f5b183cc5c8bbd256d8fe9ea7",
+			"keccak256": "0x933298af05a0efdb00c8dff02438ddf2bee141ab580b49935a5d2014a60820e6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b135597e7ebaa0394c575f83e79213422e20a49f941f7fb881176b3c0cd362a",
-				"dweb:/ipfs/QmXS4d4ihMsmiXVVWPdrEVPb9hd6eVSFNpE1u5nA2pdHaz"
+				"bzz-raw://1fa0c807c2e1f627feae5f753102e1b1ef32aa943d9fb04900a1d13049a41b76",
+				"dweb:/ipfs/QmcHdhgyrDU9iMj6BaaxcbdomC5cwgvcTvSN4p5s1krAis"
 			]
 		},
 		"erc20.sol": {

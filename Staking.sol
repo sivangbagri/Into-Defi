@@ -104,6 +104,9 @@ contract StakingRewards {
         external
         onlyOwner
         updateReward(address(0))
+        // notifyRewardAmount is a function used by the contract owner to add new rewards to the staking pool.
+
+
     {
         if (block.timestamp >= finishAt) {
             rewardRate = _amount / duration;
