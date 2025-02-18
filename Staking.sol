@@ -18,7 +18,7 @@ contract StakingRewards {
     // Sum of (reward rate * dt * 1e18 / total supply)
     uint256 public rewardPerTokenStored;
     // User address => rewardPerTokenStored
-    mapping(address => uint256) public userRewardPerTokenPaid;
+    mapping(address => uint256) public userRewardPerTokenPaid; // lastRewardClaimedPerToken
     // User address => rewards to be claimed
     mapping(address => uint256) public rewards;
 
