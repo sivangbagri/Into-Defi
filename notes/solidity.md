@@ -51,3 +51,5 @@
 - An Automated Market Maker (AMM) in DeFi (Decentralized Finance) is a protocol that allows users to trade cryptocurrencies in a decentralized manner using liquidity pools instead of traditional order books.
 - AMM : https://chatgpt.com/share/67a38f04-cf70-8013-b8cb-83c1c08c9d1f
 - CPMM maths : https://github.com/t4sk/notes/blob/main/excalidraw/cpamm.png
+- <img width="350" alt="image" src="https://github.com/user-attachments/assets/9ecaba87-0da9-4b8f-9130-039f143cbfd3" />
+
