@@ -53,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"NFT.sol": "IERC721Receiver"
+			"erc721.sol": "IERC721Receiver"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -67,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"NFT.sol": {
-			"keccak256": "0x7921ae6c6bf98ce9453d3cba27f5ce35984c7cec902b252039a85f95747210e3",
+		"erc721.sol": {
+			"keccak256": "0x2074522485886aff6e60b267147d876d50dcbf6880a3018d8e174186fe031f72",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://583e7ba8ed0baa83d614f01edcbd339e513c0aa188a433db9f1ad051c06de1e4",
-				"dweb:/ipfs/QmTafomB2B3bRMoZCNmyrrcFyw6YRbiADGiZk4FDMHihAc"
+				"bzz-raw://6b11dbdd6736fe58662ff5d8ca34cb564615f99a195183056a3c2324a7e7f612",
+				"dweb:/ipfs/QmTQdY1fDr8aN8FBWNjkKwfEeGH3w6E5VywienYH5LkWdT"
 			]
 		}
 	},

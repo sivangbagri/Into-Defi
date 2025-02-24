@@ -52,4 +52,11 @@
 - AMM : https://chatgpt.com/share/67a38f04-cf70-8013-b8cb-83c1c08c9d1f
 - CPMM maths : https://github.com/t4sk/notes/blob/main/excalidraw/cpamm.png
 - <img width="350" alt="image" src="https://github.com/user-attachments/assets/9ecaba87-0da9-4b8f-9130-039f143cbfd3" />
-
+- ERC-165 is a standard for smart contracts to detect whether another contract supports a specific interface. 
+- to.code.length==0 : true of EOA
+- You should use safeTransferFrom whenever you want to transfer an NFT to a smart contract.
+- safeTransferFrom checks if the recipient is a contract and verifies if it supports ERC721.
+- How an NFT Marketplace (e.g., OpenSea) Displays Digital Art
+    - Calls tokenURI(tokenId) from the smart contract.
+    - Fetches the metadata JSON.
+    - Extracts the "image" field and displays the artwork.
