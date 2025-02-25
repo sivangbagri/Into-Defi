@@ -60,3 +60,4 @@
     - Calls tokenURI(tokenId) from the smart contract.
     - Fetches the metadata JSON.
     - Extracts the "image" field and displays the artwork.
+- encodeWithSignature, encodeWithSelector , encodeCall
